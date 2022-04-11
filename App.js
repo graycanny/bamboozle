@@ -13,7 +13,9 @@ export default function App() {
         <Text style={styles.whiteText}>Mar 31</Text>
         <Text style={styles.yellowText}>21:43:19</Text>
       </View>
-      <Image style={styles.title} source={require("./assets/title.png")} />
+      <View style={styles.titleWrap}>
+        <Image style={styles.title} source={require("./assets/title.png")} />
+      </View>
       <Text style={styles.whiteText}>
         Bamber Boozler poses another 12 questions. Answer using fast text at the
         bottom. One wrong and you must try again.

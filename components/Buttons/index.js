@@ -3,6 +3,8 @@ import { Text, View, SafeAreaView, Image, Button, Alert } from "react-native";
 import styles from "./styles.js";
 
 function Buttons() {
+  //! Change to be a singular button that has props for color and title and onPress function passed down to it
+
   return (
     <View>
       <Button

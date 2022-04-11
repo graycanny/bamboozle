@@ -25,7 +25,12 @@ const styles = StyleSheet.create({
   title: {
     marginBottom: 5,
   },
-
+  titleWrap: {
+    borderStyle: "dashed",
+    borderBottomColor: "#FFFFFF",
+    borderBottomWidth: 5,
+    marginBottom: 20,
+  },
   whiteText: {
     color: "#FFFFFF",
   },
