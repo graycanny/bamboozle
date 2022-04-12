@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, View, SafeAreaView, Image, Button, Alert } from "react-native";
-import Buttons from "./components/Buttons/index.js";
+import Btn from "../components/Btn/index.js";
 import styles from "./styles.js";
 
 export default function App() {
@@ -24,7 +24,12 @@ export default function App() {
         Can you answer all 12 in one attempt?
       </Text>
       <Image source={require("./assets/titleImg.png")} />
-      <Buttons />
+      <View style={styles.btnCont}>
+        <Btn title={"New Game"} style={styles.btn} />
+        <Btn title={"Continue"} style={styles.btn} />
+        <Btn title={"High Score"} style={styles.btn} />
+        <Btn title={"Settings"} style={styles.btn} />
+      </View>
       <StatusBar style="auto" />
     </SafeAreaView>
   );

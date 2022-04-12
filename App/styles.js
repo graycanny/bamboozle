@@ -37,6 +37,10 @@ const styles = StyleSheet.create({
   yellowText: {
     color: "#F4FE53",
   },
+  btnCont: {
+    height: "45%",
+    backgroundColor: "orange",
+  },
 });
 
 export default styles;
